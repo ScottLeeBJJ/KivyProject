@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-import Home from "./pages/home";
+import Home from "./capstone/capstone-container";
 
 export default class App extends Component {
   render() {
