@@ -6,7 +6,7 @@ export default class Homepage extends Component {
     render() {
         return (
             <div className="home">
-                <h1>Project Capstone Mini-Games</h1>                
+                <h1 className="intro">Project Capstone Mini-Games</h1>                
                 <GameSlot />
             </div>
         );

@@ -7,14 +7,24 @@
 
 .title {
     background-image: linear-gradient(black, green, black);
-    color: blue;
+    color: aqua;
     padding: 25px;
+}
+
+.intro {
+    font-size: 60px;
 }
 
 .home {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    background-image: url(../../static/assets/images/pong-game.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    background-position-y: -200px;
 
     color: lime;
 }
@@ -26,10 +36,11 @@
     grid-template-columns: 1fr;
 
     color: black;
-    background-color: green;
+    background-color: lime;
     font-size: 15px;
     font-weight: bold;
-    border-radius: 25px;
+    border-radius: 25px ;
+    border-color: greenyellow;
     width: 140px;
 
     margin: 50px;
