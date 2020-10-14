@@ -2,12 +2,10 @@ import React from 'react';
 
 export default function() {
     return (
-        <div>
-            <h1>Game item...</h1>
-            <h1>Game item...</h1>
-            <h1>Game item...</h1>
-
-            
+        <div className="game-items">
+            <button id="game">PONG</button>
+            <button id="game">SNAKE</button>
+            <button id="game">SPACE INVADERS</button>
         </div>
     )
 }

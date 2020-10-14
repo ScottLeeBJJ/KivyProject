@@ -6,7 +6,10 @@ export default class App extends Component {
   render() {
     return (
       <div className='app'>
-        <h1>DevCamp Capstone Games Site</h1>
+        <div className="title">
+          <h1>Project Capstone!</h1>
+          <h3>This site host multiple mini-games for you to enjoy, absolutely free!!!</h3>
+        </div>
 
         <Home />
       </div>
